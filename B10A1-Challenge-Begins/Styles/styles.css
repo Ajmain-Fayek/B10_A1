@@ -135,3 +135,32 @@ h3{
     background: linear-gradient(270deg, #fff, #ffffff00);
 }
 /* ------------ Why Web Development --------- */
+/* --------------- My Inspiration ----------- */
+.myInspiration{
+    width: 100%;
+    margin: 5em auto;
+}
+
+.mi-element{
+    width: 70%;
+    padding: 6em 4em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mi-title{
+    margin: 3em;
+}
+
+.video{
+    border: 1px solid #0000004b;
+    padding: 1.5em;
+    border-radius: 1em;
+}
+
+.youtube{
+    width: 100%;
+    height: 75vh;
+    border-radius: 1em;
+}
+/* --------------- My Inspiration ----------- */
