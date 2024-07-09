@@ -216,3 +216,38 @@ a{
     background-color: #FFDF0018
 }
 /* ------------- My Current Target ---------- */
+/* -------------   My Next Target ----- ----- */
+.myNextTarget{
+    width: 100%;
+    margin: 5em auto;
+}
+
+.mnt-element{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 1em;
+    padding: 6em 4em;
+    gap: 1.5em;
+}
+
+.mnt-title{
+    width: 78%;
+}
+
+.mnt-card{
+    display: flex;
+    width: 100%;
+    border: 1px solid #0000004b;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 2em;
+    gap: 5em;
+    border-radius: 1em;
+}
+/* -------------   My Next Target ----- ----- */
