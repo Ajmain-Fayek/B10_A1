@@ -1,4 +1,4 @@
-/* --------------- Constants -------------- */
+/* ----------------------- Constants ------------------------- */
 h1{
     font-size: 4rem;
 }
@@ -21,16 +21,16 @@ a{
     font-size: 1.5rem;
     font-weight: 600;
 }
-/* --------------- Constants -------------- */
-/* --------------- Body Font -------------- */
+/* ------------------------- Constants -------------------------- */
+/* -------------------------- Body Font ------------------------- */
 .azeret-mono {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
 }
-/* ---------------- Body Font -------------- */
-/* ----------- Button Primary Style--------- */
+/* --------------------------- Body Font ------------------------- */
+/* ----------------------- Button Primary Style------------------- */
 .btn{
     padding: .6em 1.5em;
     font-size: 1rem;
@@ -47,8 +47,8 @@ a{
 .btn:active{
     box-shadow: none;
 }
-/* ----------- Button Primary Style--------- */
-/* ----------------- Nav Bar --------------- */
+/* ------------------------ Button Primary Style-------------------- */
+/* ------------------------------- Nav Bar ------------------------- */
 .header{
     width: 100%;
     margin: 0 auto;
@@ -61,8 +61,8 @@ a{
     margin: 2rem 10rem;
 }
 
-/* ----------------- Nav Bar -------------- */
-/* ------------------ Banner -------------- */
+/* --------------------------------- Nav Bar ------------------------- */
+/* ---------------------------------- Banner -------------------------- */
 .banner{
     background-image: url("../assets/Hero-bg.png");
     padding: 3em 0;
@@ -100,8 +100,8 @@ a{
 .banner-element .conact-me:active{
     box-shadow: none;
 }
-/* ------------------ Banner ---------------- */
-/* ------------ Why Web Development --------- */
+/* ------------------------------- Banner ------------------------------- */
+/* ------------------------ Why Web Development ------------------------- */
 .wwd{
     width: 100%;
     margin: 5em auto;
@@ -141,8 +141,8 @@ a{
     flex-direction: row-reverse;
     background: linear-gradient(270deg, #fff, #ffffff00);
 }
-/* ------------ Why Web Development --------- */
-/* --------------- My Inspiration ----------- */
+/* ------------------------ Why Web Development ------------------------- */
+/* --------------------------- My Inspiration --------------------------- */
 .myInspiration{
     width: 100%;
     margin: 4em auto;
@@ -170,8 +170,8 @@ a{
     height: 75vh;
     border-radius: 1em;
 }
-/* --------------- My Inspiration ----------- */
-/* ------------- My Current Target ---------- */
+/* --------------------------------- My Inspiration ------------------------ */
+/* -------------------------------- My Current Target ---------------------- */
 .myCurrentTarget{
     width: 100%;
     margin-bottom: 4rem;
@@ -183,7 +183,7 @@ a{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
 }
 
@@ -215,11 +215,11 @@ a{
 .card-6{
     background-color: #FFDF0018
 }
-/* ------------- My Current Target ---------- */
-/* -------------   My Next Target ----- ----- */
+/* --------------------------------- My Current Target ------------------------- */
+/* --------------------------------   My Next Target --------------------------- */
 .myNextTarget{
     width: 100%;
-    margin: 5em auto;
+    margin: 5em 0 auto auto;
 }
 
 .mnt-element{
@@ -250,4 +250,58 @@ a{
     gap: 5em;
     border-radius: 1em;
 }
-/* -------------   My Next Target ----- ----- */
+/* -------------------------------   My Next Target -------------------------- */
+/* -------------------------------   I Need Support -------------------------- */
+.iNeedSupport{
+    width: 100%;
+    margin-bottom: 5em;
+}
+
+.ins-element{
+    width: 80%;
+    padding: 6.5em 2em;
+    background: linear-gradient(0deg, #000000a0, #000000a0),
+                url("../assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.ins-element > p{
+    margin: 1em auto;
+    width: 70%;
+}
+
+.ins-input{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.ins-input > input{
+    padding: 1em;
+    font-size: 1.5em;
+    background-color: #fff;
+    border: none;
+    border-radius: .5em;
+    width: 60%;
+    outline: none;
+}
+
+.ins-input > button{
+    font-size: 1.5em;
+    border-radius: .5em;
+}
+
+.ins-input > button:hover{
+    box-shadow: 2px 2px 0 0 #ffffff6b;
+}
+
+.ins-input > button:active{
+    box-shadow: none;
+}
+/* -------------------------------   I Need Support -------------------------- */
