@@ -39,6 +39,7 @@ a{
     background-color: #fff;
     border: 1px solid #000;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .btn:hover{
@@ -328,5 +329,9 @@ a{
 .cntct-icons{
     display: flex;
     gap: 2em;
+}
+
+.cntct-icons > img{
+    cursor: pointer;
 }
 /* -------------------------------------  Footer  ----------------------------- */
