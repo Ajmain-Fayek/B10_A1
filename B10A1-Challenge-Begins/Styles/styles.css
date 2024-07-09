@@ -1,3 +1,20 @@
+/* --------------- Constants -------------- */
+p{
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+/* --------------- Constants -------------- */
 /* --------------- Body Font -------------- */
 .azeret-mono {
   font-family: "Azeret Mono", monospace;
@@ -37,14 +54,11 @@
     margin: 2rem 10rem;
 }
 
-.navBar h3{
-    font-size: 1.5em;
-}
 /* ----------------- Nav Bar -------------- */
 /* ------------------ Banner -------------- */
 .banner{
     background-image: url("../assets/Hero-bg.png");
-    height: 85vh;
+    padding: 3em 0;
     margin: 1em auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -66,15 +80,6 @@
     width: 15em;
 }
 
-.banner-element h1{
-    font-size: 4em;
-    margin-bottom: 0.2em;
-}
-
-.banner-element p{
-    font-size: 1.7em;
-}
-
 .banner-element .conact-me{
     background: #000;
     color: #fff;
@@ -84,4 +89,49 @@
 .banner-element .conact-me:hover{
     box-shadow: 2px 2px 0 0 #c180e77e;
 }
-/* ------------------ Banner -------------- */
+
+.banner-element .conact-me:active{
+    box-shadow: none;
+}
+/* ------------------ Banner ---------------- */
+/* ------------ Why Web Development --------- */
+.wwd{
+    width: 100%;
+    margin: 5em auto;
+}
+
+.wwd-element{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #0d132110;
+    border-radius: 1em;
+    padding: 6em 4em;
+}
+
+.wwd-element  p{
+    width: 85%;
+}
+
+.wwd-card{
+    display: flex;
+    width: 80%;
+    margin: 4em 4em 2em 2em;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    background: linear-gradient(90deg, #fff, #ffffff00);
+    padding: 2em 3.5em;
+    border-radius: 1em;
+    gap: 5em;
+}
+
+.card-2{
+    flex-direction: row-reverse;
+    background: linear-gradient(270deg, #fff, #ffffff00);
+}
+/* ------------ Why Web Development --------- */
