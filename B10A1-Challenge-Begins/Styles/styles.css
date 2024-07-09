@@ -260,7 +260,7 @@ a{
 .ins-element{
     width: 80%;
     padding: 6.5em 2em;
-    background: linear-gradient(1deg, #000000a0, #000000a0),url("../assets/handshake.jpg");
+    background: linear-gradient(1deg, #000000a0, #000000a0),url("../assets/handshake.png");
     background-position: center;
     background-size: cover;
     margin: 0 auto;
