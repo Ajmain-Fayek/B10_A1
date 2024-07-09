@@ -6,7 +6,6 @@
   font-style: normal;
 }
 /* ---------------- Body Font -------------- */
-
 /* ----------- Button Primary Style--------- */
 .btn{
     padding: .6em 1.5em;
@@ -25,7 +24,6 @@
     box-shadow: none;
 }
 /* ----------- Button Primary Style--------- */
-
 /* ----------------- Nav Bar --------------- */
 .header{
     width: 100%;
@@ -43,3 +41,47 @@
     font-size: 1.5em;
 }
 /* ----------------- Nav Bar -------------- */
+/* ------------------ Banner -------------- */
+.banner{
+    background-image: url("../assets/Hero-bg.png");
+    height: 85vh;
+    margin: 1em auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-element{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.banner-element img{
+    width: 15em;
+}
+
+.banner-element h1{
+    font-size: 4em;
+    margin-bottom: 0.2em;
+}
+
+.banner-element p{
+    font-size: 1.7em;
+}
+
+.banner-element .conact-me{
+    background: #000;
+    color: #fff;
+    margin-top: 1em;
+}
+
+.banner-element .conact-me:hover{
+    box-shadow: 2px 2px 0 0 #c180e77e;
+}
+/* ------------------ Banner -------------- */
