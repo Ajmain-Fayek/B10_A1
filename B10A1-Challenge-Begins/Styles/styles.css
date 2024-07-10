@@ -159,7 +159,8 @@ a{
 }
 
 .mi-title{
-    margin: 3em auto;
+    padding: 4em 0;
+    margin: auto;
     width: 80%;
 }
 
