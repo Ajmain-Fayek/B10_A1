@@ -1,6 +1,6 @@
 //-------------------------  NavBar Links ---------------------------------//
 document.getElementById("download-resume").addEventListener('click', function(){
-    window.open("https://drive.google.com/file/d/1m64bz1d42Zwn4IPSd3wgnoienwaSRyOM/view?usp=sharing");
+    window.open("B10A1-Challenge-Begins/assets/resume.html");
 });
 //-------------------------  NavBar Links ---------------------------------//
 
