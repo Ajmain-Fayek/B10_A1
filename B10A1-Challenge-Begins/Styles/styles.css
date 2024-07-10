@@ -1,18 +1,18 @@
 /* ----------------------- Constants ------------------------- */
 h1{
-    font-size: 4rem;
+    font-size: 4em;
 }
 
 h2{
-    font-size: 2.5rem;
+    font-size: 2.5em;
 }
 
 h3{
-    font-size: 1.8rem;
+    font-size: 1.8em;
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: 1.5em;
     opacity: .8;
 }
 
@@ -150,14 +150,15 @@ a{
 }
 
 .mi-element{
-    width: 70%;
-    padding: 2em 4em;
+    width: 80%;
+    padding: 2em;
     margin: 0 auto;
     text-align: center;
 }
 
 .mi-title{
-    margin: 3em;
+    margin: 3em auto;
+    width: 80%;
 }
 
 .video{
@@ -180,7 +181,7 @@ a{
 
 .mct-element{
     display: flex;
-    width: 85%;
+    width: 80%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -190,7 +191,7 @@ a{
 
 .mct-title{
     margin: 3em auto;
-    width: 75%;
+    width: 80%;
 }
 
 .mtc-card{
@@ -237,7 +238,7 @@ a{
 }
 
 .mnt-title{
-    width: 78%;
+    width: 80%;
 }
 
 .mnt-card{
