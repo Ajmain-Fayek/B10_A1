@@ -29,15 +29,15 @@ document.getElementById("ind-submit").addEventListener('click', function(){
 //-------------------  I need Support Links --------------------------------//
 
 //-------------------------  Footer Links ---------------------------------//
-document.getElementById("facebook").addEventListener('click', function(){
-    window.open("https://www.facebook.com/AjmainFayek733/");
-});
+// document.getElementById("facebook").addEventListener('click', function(){
+//     window.open("https://www.facebook.com/AjmainFayek733/");
+// });
 
-document.getElementById("github").addEventListener('click', function(){
-    window.open("https://github.com/ajmain-fayek");
-});
+// document.getElementById("github").addEventListener('click', function(){
+//     window.open("https://github.com/ajmain-fayek");
+// });
 
-document.getElementById("linkedin").addEventListener('click', function(){
-    window.open("https://www.linkedin.com/in/ajmainfayek733/");
-});
+// document.getElementById("linkedin").addEventListener('click', function(){
+//     window.open("https://www.linkedin.com/in/ajmainfayek733/");
+// });
 //-------------------------  Footer Links ---------------------------------//
